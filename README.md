@@ -6,5 +6,5 @@ Approach: Utilize medical entity identifiers (cTAKES, CLAMP), feature engineer, 
 
 Significance: It is imperative to enable machines to not only score how similar texts are, but to also have scores that correlate with clinicians' identifications so as to preserve any critical information
 
-Scripts modified and implemented from others github code: 
+Scripts modified and implemented from others' github code: 
 tokenization.py, modeling.py, extract_features.py, berts.py  
