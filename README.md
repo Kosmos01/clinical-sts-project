@@ -36,16 +36,16 @@ complicated to identify which concepts belong to which sentence*__
 
 ### Scripts:
 1. runCTAKES.py:
-  1. parses the txt file into seperate documents
-  2. run pipeline of ctakes
-  3. format xml file produced from pipeline as it makes for easier reading
+   - parses the txt file into seperate documents
+   - run pipeline of ctakes
+   - format xml file produced from pipeline as it makes for easier reading
 2. ctakesAttributes.py:
-  1. extract desired attributes for each document
+   - extract desired attributes for each document
   2. compute tf-idf, cosine similarity, jaccard similarity, word movers distance, sentence embeddings, and bert contextual embeddings 
 3. plotting.py:
-  1. used for all plots created for this project
+   - used for all plots created for this project
 4. main.py:
-  1. utilizes the above modules to perform the projects various tasks
+   - utilizes the above modules to perform the projects various tasks
 
 *Scripts modified and implemented from others' github code: 
 tokenization.py, modeling.py, extract_features.py, berts.py*
