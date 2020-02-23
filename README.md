@@ -41,7 +41,7 @@ complicated to identify which concepts belong to which sentence*__
    - format xml file produced from pipeline as it makes for easier reading
 2. ctakesAttributes.py:
    - extract desired attributes for each document
-  2. compute tf-idf, cosine similarity, jaccard similarity, word movers distance, sentence embeddings, and bert contextual embeddings 
+   - compute tf-idf, cosine similarity, jaccard similarity, word movers distance, sentence embeddings, and bert contextual embeddings 
 3. plotting.py:
    - used for all plots created for this project
 4. main.py:
