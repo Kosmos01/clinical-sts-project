@@ -50,3 +50,6 @@ complicated to identify which concepts belong to which sentence*__
    - misc. scripts used intially to help explore the txt file. (not essentials for project)
 *Scripts modified and implemented from others' github code: 
 tokenization.py, modeling.py, extract_features.py, berts.py*
+
+
+__Note:__ quick turnaround had occured from the 2019 summer research program (classification models) to the n2c2 shared-task (regression models w/ BERT contextual representations) in order to meet the n2c2 deadline for submissions. 
