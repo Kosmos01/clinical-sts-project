@@ -22,5 +22,29 @@ Significance: It is imperative to enable machines to not only score how similar 
 
 *Note that in the actual dataset annotations were done by clinicians and would have intermediate values such as 1.22, 2.3, 3.1, 3.4 as similarity scores*
 
+### General steps:
+1. install and configure cTAKES/CLAMP so we can identify clinical concepts
+2. parse txt file that contains the sentence seperating each sentence into its own document 
+__*makes it easier to extract attributes for each sentence. Whereas if you just process them as is it will be a little more 
+complicated to identify which concepts belong to which sentence*__
+3. run cTAKES/CLAMP
+4. Extract desired attributes
+5. Perform feature engineering
+6. Feature selection
+7. tuning 
+8. final test run
+
+### Scripts:
+1. runCTAKES.py:
+  1. parses the txt file into seperate documents
+  2. run pipeline of ctakes
+  3. format xml file produced from pipeline as it makes for easier reading
+2. ctakesAttributes.py:
+  1. extract desired attributes for each document
+  2. compute tf-idf, cosine similarity, jaccard similarity, word movers distance, sentence embeddings, and bert contextual embeddings 
+3. plotting.py:
+  1. used for all plots created for this project
+4. main.py:
+  1. utilizes the above modules to perform the projects various tasks
 Scripts modified and implemented from others' github code: 
 tokenization.py, modeling.py, extract_features.py, berts.py  
