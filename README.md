@@ -6,7 +6,7 @@ Approach: Utilize medical entity identifiers (cTAKES, CLAMP), feature engineer, 
 
 Significance: It is imperative to enable machines to not only score how similar texts are, but to also have scores that correlate with clinicians' identifications so as to preserve any critical information
 
-## Similarity examples (format: Sentence1 ---- Sentence2 ----> similarityScore):
+### Similarity examples (format: Sentence1 ---- Sentence2 ----> similarityScore):
 
 > The patient reports no suicidal or homicidal ideation. ---- The patient reports agreement with the plan with no further questions at this time -> 0
 
