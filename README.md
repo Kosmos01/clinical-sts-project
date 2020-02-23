@@ -46,5 +46,6 @@ complicated to identify which concepts belong to which sentence*__
   1. used for all plots created for this project
 4. main.py:
   1. utilizes the above modules to perform the projects various tasks
-Scripts modified and implemented from others' github code: 
-tokenization.py, modeling.py, extract_features.py, berts.py  
+
+*Scripts modified and implemented from others' github code: 
+tokenization.py, modeling.py, extract_features.py, berts.py  *
