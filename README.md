@@ -1,5 +1,10 @@
-# clinical-sts-project
+# Clinical Semantic Textual Similarity
 
+### Posters presented
+![Gulf Coast Consortia 2019 Bioinformatics Summer research Poster](https://github.com/Kosmos01/clinical-sts-project/blob/master/SummerResearchPoster.jpg)
+
+
+### Description
 Project goal: Within the health informatics domain, we leverage semenatic textual similarity (STS) to identify similar clinical texts that can be found in Electronic Health Records. Similarity will be on a scale from 0 to 5, with 0 being completely dissimilar and 5 being completely similar.
 
 Approach: Utilize medical entity identifiers (cTAKES, CLAMP), feature engineer, word embedding models, contextual representations, along with five regression/classification algorithms
